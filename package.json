@@ -2,9 +2,19 @@
 	"name": "khatar-back-end",
 	"version": "0.0.0",
 	"private": true,
-	"scripts": {},
+	"type": "module",
+	"scripts": {
+		"start": "server.mjs"
+	},
 	"dependencies": {
+		"colors": "^1.4.0",
+		"cookie-parser": "^1.4.6",
+		"cors": "^2.8.5",
+		"dot-env": "^0.0.1",
 		"express": "~4.16.1",
+		"firebase-admin": "^11.7.0",
+		"helmet": "^6.1.5",
+		"http-errors": "^2.0.0",
 		"morgan": "~1.9.1"
 	}
 }
